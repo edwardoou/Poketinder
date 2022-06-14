@@ -16,6 +16,9 @@
 		86619770284D8EA8006E7326 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661976F284D8EA8006E7326 /* HomeViewModel.swift */; };
 		86619772284D8F10006E7326 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619771284D8F10006E7326 /* LaunchView.swift */; };
 		86619774284D8F24006E7326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86619773284D8F24006E7326 /* LaunchScreen.storyboard */; };
+		8A54D69C28581F5A009C2C76 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69B28581F5A009C2C76 /* CardView.swift */; };
+		8A54D69E2858209D009C2C76 /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69D2858209D009C2C76 /* HomeButtonView.swift */; };
+		8A54D6A0285822F7009C2C76 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69F285822F7009C2C76 /* LaunchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		8661976F284D8EA8006E7326 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		86619771284D8F10006E7326 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		86619773284D8F24006E7326 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A54D69B28581F5A009C2C76 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8A54D69D2858209D009C2C76 /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
+		8A54D69F285822F7009C2C76 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 		86619746284D87C1006E7326 = {
 			isa = PBXGroup;
 			children = (
+				8A54D69A28581F28009C2C76 /* Components */,
 				86619751284D87C1006E7326 /* iOSAppTemplate */,
 				86619750284D87C1006E7326 /* Products */,
 			);
@@ -92,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				8661976F284D8EA8006E7326 /* HomeViewModel.swift */,
+				8A54D69F285822F7009C2C76 /* LaunchViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -128,6 +136,15 @@
 				86619754284D87C1006E7326 /* ContentView.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		8A54D69A28581F28009C2C76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8A54D69B28581F5A009C2C76 /* CardView.swift */,
+				8A54D69D2858209D009C2C76 /* HomeButtonView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,12 +218,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A54D69C28581F5A009C2C76 /* CardView.swift in Sources */,
 				86619766284D88DE006E7326 /* AppState.swift in Sources */,
 				86619772284D8F10006E7326 /* LaunchView.swift in Sources */,
 				86619755284D87C1006E7326 /* ContentView.swift in Sources */,
 				86619768284D8929006E7326 /* Model.swift in Sources */,
 				8661976A284D8ACF006E7326 /* MyApp_iOSApp.swift in Sources */,
 				86619770284D8EA8006E7326 /* HomeViewModel.swift in Sources */,
+				8A54D69E2858209D009C2C76 /* HomeButtonView.swift in Sources */,
+				8A54D6A0285822F7009C2C76 /* LaunchViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
