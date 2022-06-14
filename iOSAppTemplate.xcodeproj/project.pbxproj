@@ -51,7 +51,6 @@
 		86619746284D87C1006E7326 = {
 			isa = PBXGroup;
 			children = (
-				8A54D69A28581F28009C2C76 /* Components */,
 				86619751284D87C1006E7326 /* iOSAppTemplate */,
 				86619750284D87C1006E7326 /* Products */,
 			);
@@ -68,6 +67,7 @@
 		86619751284D87C1006E7326 /* iOSAppTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				8A54D69A28581F28009C2C76 /* Components */,
 				8661976D284D8E6B006E7326 /* Main */,
 				8661976C284D8E65006E7326 /* Launch */,
 				8661976B284D8DA2006E7326 /* Assets */,
