@@ -5,7 +5,7 @@
 //  Created by Alex Ramos on 13/06/22.
 //
 
-import Foundation
+import FirebaseAuth
 
 class LaunchViewModel: ObservableObject {
     // instanciar appState
@@ -16,6 +16,6 @@ class LaunchViewModel: ObservableObject {
     //    La vista LaunchView
     init() {
         // Antes de hacer esto se hacen las peticiones iniciales
-        appState.currentScreen = .home
+        appState.currentScreen = Auth.auth().currentUser != nil ? .main : .login
     }
 }
