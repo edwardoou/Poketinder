@@ -10,10 +10,16 @@ import SwiftUI
 struct ContentView: View {
     
     @EnvironmentObject var appState: AppState
+    @StateObject var homeViewModel = HomeViewModel()
     
     var body: some View {
+        NavigationView {
             VStack {
-                CardView()
+                ZStack {
+                    ForEach(homeViewModel.pokemons, id: \.name) { pokemon in
+                        CardView(pokemon: pokemon)
+                    }
+                }
                 HStack {
                     HomeButtonView(imageName: "undo-button")
                     HomeButtonView(imageName: "dislike-button")
@@ -23,7 +29,12 @@ struct ContentView: View {
                 }
                 .padding()
             }
+            .navigationBarHidden(true)
         }
+        .task {
+            homeViewModel.getPokemonByUserId()
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
