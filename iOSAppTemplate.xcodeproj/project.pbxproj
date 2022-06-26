@@ -11,7 +11,6 @@
 		86619757284D87C3006E7326 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86619756284D87C3006E7326 /* Assets.xcassets */; };
 		8661975A284D87C3006E7326 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86619759284D87C3006E7326 /* Preview Assets.xcassets */; };
 		86619766284D88DE006E7326 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619765284D88DE006E7326 /* AppState.swift */; };
-		86619768284D8929006E7326 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619767284D8929006E7326 /* Model.swift */; };
 		8661976A284D8ACF006E7326 /* MyApp_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619769284D8ACF006E7326 /* MyApp_iOSApp.swift */; };
 		86619770284D8EA8006E7326 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8661976F284D8EA8006E7326 /* HomeViewModel.swift */; };
 		86619772284D8F10006E7326 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86619771284D8F10006E7326 /* LaunchView.swift */; };
@@ -23,7 +22,6 @@
 		8A1DF9872860128F00A4A4CF /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8A1DF9862860128F00A4A4CF /* FirebaseFirestore */; };
 		8A1DF9892860128F00A4A4CF /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8A1DF9882860128F00A4A4CF /* FirebaseMessaging */; };
 		8A1DF98B2860128F00A4A4CF /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8A1DF98A2860128F00A4A4CF /* FirebaseStorage */; };
-		8A1DF98D286013E600A4A4CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A1DF98C286013E600A4A4CF /* GoogleService-Info.plist */; };
 		8A1DF98F2860148E00A4A4CF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DF98E2860148E00A4A4CF /* SignInView.swift */; };
 		8A1DF991286014DA00A4A4CF /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DF990286014DA00A4A4CF /* SignUpView.swift */; };
 		8A1DF9932860154D00A4A4CF /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1DF9922860154D00A4A4CF /* AuthViewModel.swift */; };
@@ -32,6 +30,8 @@
 		8A54D69C28581F5A009C2C76 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69B28581F5A009C2C76 /* CardView.swift */; };
 		8A54D69E2858209D009C2C76 /* HomeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69D2858209D009C2C76 /* HomeButtonView.swift */; };
 		8A54D6A0285822F7009C2C76 /* LaunchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A54D69F285822F7009C2C76 /* LaunchViewModel.swift */; };
+		8A99DB342868A91D005CEC83 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A99DB332868A91D005CEC83 /* Pokemon.swift */; };
+		8AC1C62A2866CA21008D0247 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AC1C6292866CA21008D0247 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +40,12 @@
 		86619756284D87C3006E7326 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86619759284D87C3006E7326 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86619765284D88DE006E7326 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		86619767284D8929006E7326 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		86619769284D8ACF006E7326 /* MyApp_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp_iOSApp.swift; sourceTree = "<group>"; };
 		8661976F284D8EA8006E7326 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		86619771284D8F10006E7326 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		86619773284D8F24006E7326 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A1DF97D2860064B00A4A4CF /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		8A1DF97F286007FD00A4A4CF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		8A1DF98C286013E600A4A4CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8A1DF98E2860148E00A4A4CF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		8A1DF990286014DA00A4A4CF /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		8A1DF9922860154D00A4A4CF /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
@@ -56,6 +54,8 @@
 		8A54D69B28581F5A009C2C76 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8A54D69D2858209D009C2C76 /* HomeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonView.swift; sourceTree = "<group>"; };
 		8A54D69F285822F7009C2C76 /* LaunchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewModel.swift; sourceTree = "<group>"; };
+		8A99DB332868A91D005CEC83 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8AC1C6292866CA21008D0247 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +100,10 @@
 				8661976C284D8E65006E7326 /* Launch */,
 				8661976B284D8DA2006E7326 /* Assets */,
 				86619760284D8833006E7326 /* Model */,
+				8AC1C6292866CA21008D0247 /* GoogleService-Info.plist */,
 				86619765284D88DE006E7326 /* AppState.swift */,
 				86619769284D8ACF006E7326 /* MyApp_iOSApp.swift */,
 				8A1DF994286015EC00A4A4CF /* AppDelegate.swift */,
-				8A1DF98C286013E600A4A4CF /* GoogleService-Info.plist */,
 			);
 			path = iOSAppTemplate;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 		86619760284D8833006E7326 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				86619767284D8929006E7326 /* Model.swift */,
+				8A99DB332868A91D005CEC83 /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86619774284D8F24006E7326 /* LaunchScreen.storyboard in Resources */,
-				8A1DF98D286013E600A4A4CF /* GoogleService-Info.plist in Resources */,
+				8AC1C62A2866CA21008D0247 /* GoogleService-Info.plist in Resources */,
 				8661975A284D87C3006E7326 /* Preview Assets.xcassets in Resources */,
 				86619757284D87C3006E7326 /* Assets.xcassets in Resources */,
 			);
@@ -298,10 +298,10 @@
 				8A54D69C28581F5A009C2C76 /* CardView.swift in Sources */,
 				86619766284D88DE006E7326 /* AppState.swift in Sources */,
 				8A1DF97E2860064B00A4A4CF /* ChatView.swift in Sources */,
+				8A99DB342868A91D005CEC83 /* Pokemon.swift in Sources */,
 				8A1DF995286015EC00A4A4CF /* AppDelegate.swift in Sources */,
 				86619772284D8F10006E7326 /* LaunchView.swift in Sources */,
 				86619755284D87C1006E7326 /* ContentView.swift in Sources */,
-				86619768284D8929006E7326 /* Model.swift in Sources */,
 				8A1DF98F2860148E00A4A4CF /* SignInView.swift in Sources */,
 				8661976A284D8ACF006E7326 /* MyApp_iOSApp.swift in Sources */,
 				8A1DF997286016B000A4A4CF /* MainView.swift in Sources */,

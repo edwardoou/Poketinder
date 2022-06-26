@@ -13,12 +13,14 @@ struct SignUpView: View {
     @State private var name: String = ""
     @State private var email: String = ""
     @State private var password: String = ""
+    @State var alertError = false
+    
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 Text("Sign Up")
                     .font(.system(size: 25, weight: .black))
-                Text("Welcome to PokeTinder match with your favorite pokemon")
+                Text("Welcome to PokeTinder, match with your favorite pokemon")
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
@@ -55,6 +57,17 @@ struct SignUpView: View {
                 .cornerRadius(8)
                 
             }.padding()
+                .alert(isPresented: $alertError) {
+                    Alert(
+                        title: Text("Error"),
+                        message: Text(authViewModel.errorMessage),
+                        dismissButton: .default(Text("Ok"))
+                    )
+                }
+                .onReceive(authViewModel.$showError, perform: { newValue in
+                    print("newValue \(newValue)")
+                    alertError = newValue
+                })
         }
     }
 }
